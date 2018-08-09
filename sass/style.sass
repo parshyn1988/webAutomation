@@ -1,0 +1,242 @@
+/*=========== main ==========*/
+.container-fluid
+  padding-left: 0px
+  padding-right: 0px
+  max-width: 100%
+.wrapper
+  max-width: 1140px
+  margin: 0 auto
+/*=========== top ==========*/
+.top
+  padding: 14px 0
+  background-color: #032686
+.company-name
+  font-family: 'Bad Script', sans-serif
+  font-size: 18px
+  color: #ffffff
+  margin: 0
+  .fa-star
+    font-size: 30px
+    color: #ffd500
+    margin-right: 10px
+.service-text
+  color: #ffffff
+  font-size: 18px
+  font-family: 'Lobster', sans-serif
+  margin: 0
+.btn-call
+  font-size: 14px
+  border: 2px dashed #ffffff
+  padding: 10px 30px
+  color: #ffffff
+  &:hover
+    color: #ffffff
+/*=========== background ==========*/
+.top-bg
+  height: 150px
+  background: url("../img/top-fon.png") no-repeat center
+  background-size: cover
+  margin-bottom: 30px
+/*=========== aside ==========*/
+.navbar
+  border-radius: 5px
+  padding-bottom: 30px
+.navbar-brand
+  margin: 0
+  padding-top: 20px
+  padding-bottom: 10px
+  z-index: 10 !important
+  color: #ffffff !important
+  margin-bottom: 25px
+  .fa-sliders-h
+    margin-right: 10px
+    color: #ffffff
+.nav-item
+  label
+    font-size: 14px
+.form-control
+  border: none
+  font-size: 13px
+.btn-search
+  margin: 30px auto 0
+  width: 150px
+  font-size: 14px
+.navbar-toggler
+  border: none
+/*=========== main block ==========*/
+.block-product
+  border: 1px solid #c7c7c7
+  border-radius: 5px
+  padding: 20px 20px 30px 10px
+  margin-bottom: 30px
+.block-img
+  width: 100%
+  margin-bottom: 15px
+  img
+    max-width: 100%
+    height: auto
+.btn-offer
+  width: 100%
+  margin-bottom: 15px
+  color: #ffffff
+  padding-top: 8px
+  padding-bottom: 8px
+  font-size: 14px
+  &:hover
+    color: #ffffff
+.btn-contact
+  width: 100%
+  padding-top: 8px
+  padding-bottom: 8px
+  font-size: 14px
+.product-desc
+  &__header
+    font-size: 18px
+    color: #0071d4
+  &__adress
+    font-size: 14px
+    .fa-map-marker-alt
+      color: #2ebb00
+      font-size: 15px
+      margin-right: 7px
+  &__text
+    color: #9d9d9d
+    font-size: 13px
+    font-weight: 300
+  &__menu
+    &-item
+      font-size: 13px
+      .fas
+        font-size: 12px
+        margin-right: 10px
+        color: #2ebb00
+        border: 1px solid #2ebb00
+        min-width: 20px
+        height: 20px
+        border-radius: 50%
+        display: flex
+        justify-content: center
+        align-items: center
+  &__recommend
+    margin-top: 30px
+    padding: 20px 15px 20px 40px
+    border: 2px dashed #0085ca
+    border-top-left-radius: 60px
+    border-bottom-left-radius: 60px
+    position: relative
+    top: 0
+    right: -45px
+    background: #ffffff
+    &-header
+      font-size: 14px
+      font-style: italic
+      color: #0099dc
+    &-text
+      font-size: 14px
+      margin: 0
+    .block-price
+      font-size: 13px
+      .price-wrapp
+        border: 1px solid #ebdbff
+        padding: 12px 8px
+        border-top-left-radius: 10px
+        border-bottom-left-radius: 10px
+        .price
+          color: #2ebb00
+          margin-left: 5px
+          margin-right: 5px
+    .fa-ruble-sign
+      font-size: 11px
+      color: #2ebb00
+/*=========== pages ==========*/
+.pagination
+  margin-top: 35px
+.page-link
+  border: none
+  color: #5b5b5b
+  border-bottom: 1px dashed #c7c7c7
+.page-item.active .page-link
+    background: #ffffff
+    color: #5b5b5b
+    border-bottom: 4px solid #1d8fd1
+.active
+  background: #ffffff
+  color: #5b5b5b
+.prev-link, .next-link
+  border: 1px dashed #c7c7c7
+  color: #5b5b5b
+  height: 40px
+  border-radius: 5px
+  &:hover
+    background: #1d8fd1
+    border: 1px solid #1d8fd1
+    color: #ffffff
+.prev-link
+  margin-right: 30px
+  .fas
+    margin-right: 10px
+.next-link
+  margin-left: 30px
+  .fas
+    margin-left: 10px
+/*=========== footer ==========*/
+.footer
+  margin-top: 100px
+  padding-top: 10px
+  //height: 60px
+  background-color: #032686
+  padding-bottom: 10px
+.dotted-line
+  border-top: 1px dashed #4c78ba
+.nav-link
+  color: #ffffff
+  font-size: 13px
+  text-decoration: underline
+  &:hover
+    text-decoration: none
+    color: #ffffff
+.bottom-copyright
+  height: 50px
+  background-color: #f2f2f2
+  padding-top: 8px
+  .nav-link
+    color: #848484
+    font-size: 12px
+    text-decoration: none
+@media (max-width: 1199px)
+  .wrapper
+    max-width: 100%
+  .btn-call
+    margin-right: 10px
+  .block-product
+    margin-right: 1px
+  .product-desc__menu-item
+    &:last-child
+      margin-top: 10px
+  .product-desc__recommend
+    border-top-left-radius: 80px
+    border-bottom-left-radius: 80px
+@media (max-width: 991px)
+  .top-bg
+    margin-bottom: 0
+  .sidebar
+    padding: 0
+  .navbar
+    padding: 0
+    border-radius: 0
+  .form-control
+    width: 90vw
+  .btn-search
+    margin-bottom: 30px
+  .block-product
+    border-radius: 0
+    margin-left: 0
+    margin-top: 20px
+  .product-desc__recommend
+    right: -20px
+  .product-desc__menu-item
+    &:last-child
+      margin-top: 0px
+@media (max-width: 767px)
+  .product-desc
+    margin-top: 30px
